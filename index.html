@@ -116,7 +116,7 @@
             text-decoration: none;
             font-size: 16px;
         }
-        .activity-links a:hover {
+        .activity-links a: hover {
             text-decoration: underline;
         }
 
@@ -141,7 +141,7 @@
         // Display Browser Information
         document.getElementById('browser').textContent = navigator.userAgent;
         document.getElementById('platform').textContent = navigator.platform;
-        document.getElementById('java').textContent = navigator.javaEnabled() ? "Yes" : "No";
+        document.getElementById('java').textContent = navigator.javaEnabled() ? "Yes": "No";
         document.getElementById('resolution').textContent = `${screen.width} x ${screen.height}`;
         document.getElementById('available').textContent = `${screen.availWidth} x ${screen.availHeight}`;
         document.getElementById('colorDepth').textContent = `${screen.colorDepth} bits`;
@@ -178,9 +178,10 @@
     window.addEventListener("load", updateBackgroundColor);
 
     // Apply on window resize
-    window.addEventListener("resize", updateBackgroundColor);
+    .addEventListener("resize", updateBackgroundColor);
 </script>
 
 
 </body>
 </html>
+
