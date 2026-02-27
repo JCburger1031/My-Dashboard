@@ -17,4 +17,5 @@ function updateBackgroundColor() {
     window.addEventListener("load", updateBackgroundColor);
 
 // Run on window resize
-window.addEventListener("resize", updateBackgroundColor);
+.addEventListener("resize", updateBackgroundColor);
+
